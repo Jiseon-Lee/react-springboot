@@ -1,0 +1,249 @@
+@import './_detail.module.scss';
+
+.main {
+    &_benefit {
+        border-collapse: collapse;
+        width: 100%;
+        border-top: 1px solid #cdcbbe;
+        margin-bottom: 60px;
+
+        th {
+            width: 25%;
+            background: #faf9f4;
+            border-bottom: 1px solid #cdcbbe;
+            font-size: 14px;
+            font-weight: 700;
+            color: #856f56;
+            text-align: center;
+            padding: 25px 30px;
+        }
+        
+        td {
+            border-bottom: 1px solid #cdcbbe;
+            border-left: 1px solid #eceae1;
+            padding: 25px 30px;
+            height: 50px;
+
+            p {
+                color: #444;
+                font-size: 12px;
+                margin: 5px 0;
+            }
+        }
+    }
+
+    &_promotion {
+        padding: 27px 30px;
+        background: #f1e4c4;
+        color: #444;
+        margin-bottom: 60px;
+        overflow: hidden;
+
+        p {
+            margin: 0;
+        }
+
+        &_noti {
+            font-size: 0.8em;
+        }
+
+        hr {
+            background-color: #856f56;
+            margin: 20px 0px;
+            border: black;
+            height: 1px;
+        }
+    }
+
+    &_packProduct {
+        margin-bottom: 60px;
+
+        &_unit {
+            margin-bottom: 40px;
+
+            h5 {
+                font-weight: 700;
+                margin-bottom: 1em;
+                color: #343434;
+            }
+
+            img {
+                width: 420px;
+                height: 220px;
+                margin-bottom: 10px;
+            }
+            img:nth-of-type(2) {
+                margin-left: 26px;
+            }
+
+            &_desc {
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 12px;
+                padding-left: 2px;
+                color: #444;
+                line-height: 25px;
+                margin: 0;
+            }
+        }
+    }
+
+    &_banner {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    &_reservation {
+        border-top: 3px solid #a1886f;
+        padding-top: 20px;
+
+        &_info {
+            p {
+                margin: 0;
+                padding-top: 9px;
+                font-size: 12px;
+                color: #444;
+            }
+        }
+    }
+}
+
+
+.sRewards {
+    display: table;
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 20px 0;
+    background: #fff;
+    border-top: 2px solid #c2af9a;
+    border-bottom: 2px solid #c2af9a;
+
+    &_tit {
+        display: table-cell;
+        width: 217px;
+        padding: 0 20px;
+        text-align: center;
+        vertical-align: middle;
+        
+        img {
+            padding-top: 10px;
+        }
+        p {
+            padding-top: 10px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+
+    &_cont {
+        display: table-cell;
+        padding: 5px 40px 7px;
+        border-left: 1px solid #eaeaea;
+
+        &_tit {
+            color: #101010;
+        }
+
+        &_desc {
+            font-size: 0.8em;
+            color: rgb(119, 119, 119);
+        }
+
+        &_btns {
+            a {
+                display: inline-block;
+                padding: 2px 20px 0;
+                color: #fff;
+                line-height: 25px;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: none;
+                font-size: 0.8em;
+                margin: 0 2px;
+            }
+
+            &_fst {
+                background-color: #3a3125;
+            }
+            &_scd {
+                background-color: #7c6347;
+            }
+        }
+    }
+}
+
+.swimingPool {
+    margin-bottom: 60px;
+
+    h5 {
+        font-size: 16px;
+        margin-bottom: 16px;
+        font-weight: bold;
+        color: #343434;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 25px;
+        margin: 0;
+        color: #444;
+    }
+}
+
+.useInfo {
+    border: 1px solid #f4eee3;
+    background: #fdf8ef;
+    color: #444;
+    padding: 25px 30px;
+    margin: 0 0 30px;
+
+    h5 {
+        margin: 25px 0 14px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #444;
+    }
+    h5:first-child {
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 22px;
+        color: #444;
+        margin: 0;
+    }
+}
+
+.refundPolicy {
+    border-radius: 0 !important;
+    margin-bottom: 50px;
+
+    .accordion-header {
+        border: 1px solid #000;
+
+        .accordion-button {
+            background-color: #fdf8ef !important;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 1rem;
+            border-radius: 0;
+            color: #000;
+        }
+        
+    }
+
+    .accordion-body {
+        font-size: 0.95rem;
+        line-height: 1.7;
+        padding: 1rem 1.25rem;
+        background-color: #fff9f0;
+    }
+}
+
+
+.padding {
+    padding-left: 10px;
+}

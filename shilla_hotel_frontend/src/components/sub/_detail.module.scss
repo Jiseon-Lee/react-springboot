@@ -1,0 +1,47 @@
+.detailCont {
+    width: 866px;
+    margin: 40px auto 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+.title {
+    border-bottom: 5px solid #432c10;
+}
+
+.btns {
+    margin: 20px 0 10px;
+
+    &_book {
+        width: 86px;
+        height: 27px;
+        background-color: #432c10;
+        color: #fff;
+        border: none;
+        font-size: 0.8em;
+    }
+
+    &_list {
+        width: 86px;
+        height: 27px;
+        background-color: #7C6347;
+        color: #fff;
+        border: none;
+        font-size: 0.8em;
+    }
+}
+
+.main {
+    &_img {
+        width: 100%;
+    }
+
+    &_title {
+        width: 100%;
+    }
+
+    &_noti {
+        font-size: 0.9em;
+    }
+
+}

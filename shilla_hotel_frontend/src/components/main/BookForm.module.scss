@@ -1,0 +1,24 @@
+.bookContainer {
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 42px;
+    padding: 10px 0 !important;
+    text-align: center;
+    position: relative;
+
+    &_form {
+
+        &_control {
+            width: 100% !important;
+            border: none !important;
+            font-weight: bold !important;
+            text-align: center !important;
+            padding: 0 !important;
+
+            &:focus {
+                border: none !important;
+                box-shadow: none !important;
+                outline: none !important;
+            }
+        }
+    }
+}

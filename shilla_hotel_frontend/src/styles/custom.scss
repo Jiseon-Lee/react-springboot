@@ -1,0 +1,25 @@
+// src/styles/custom.scss
+
+// 1) 기본 색상 정의
+$primary: #432C10;   // 예약하기 버튼, 큰 강조
+$secondary: #81725F; // 헤더 네비바 등 기본 UI
+$success: #7C6347;   // 목록 버튼, 확인 액션
+$danger: #95642A;    // 도면보기 버튼
+$warning: #A1886F;   // 작은 강조, 주의
+$info: #685845;      // 하위 네비바, 정보 배경
+$light: #F1E3C4;     // 배경, 푸터, 로고 영역
+$dark: #5D4632;      // 소제목, 진한 텍스트
+$black: #333;     // 기본 검은색
+
+// 2) 기타 기본 스타일
+$body-bg: #fff;
+$body-color: $black;
+$border-color: #dee2e6;
+
+// 3) 버튼 호버/액티브 색상 세부 조정
+$btn-hover-bg: darken($primary, 10%);
+$btn-active-bg: darken($primary, 15%);
+$btn-disabled-bg: $primary;
+
+// 4) Bootstrap SCSS 불러오기 (변수 정의 후)
+@import "~bootstrap/scss/bootstrap";

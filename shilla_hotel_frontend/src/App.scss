@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.react-datepicker {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  background: #fff !important;
+  border: none !important;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1) !important;
+  padding: 30px 40px !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 60px !important;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+  position: absolute !important;
+  top: 0px !important; // 원하는 위치로 조정
+  left: 0 !important;
+  transform: translate(0, -100%) !important;
+}
+
+.react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__month-container {
+  width: auto !important;
+}
+
+.react-datepicker__header {
+  background: none !important;
+  border: none !important;
+  padding-bottom: 10px !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.react-datepicker__day {
+  width: 40px !important;
+  line-height: 40px !important;
+  margin: 2px !important;
+  font-size: 15px !important;
+  border-radius: 50% !important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+  background-color: #ae906f !important;
+  color: #fff !important;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+  background-color: rgba(174, 144, 111, 0.5) !important;
+}

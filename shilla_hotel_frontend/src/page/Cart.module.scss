@@ -1,0 +1,59 @@
+.cartContainer {
+    width: 1200px;
+    margin: 60px auto;
+
+    h3 {
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    
+        th {
+            background-color: #f9f9f9;
+        }
+    
+        img {
+            width: 180px;
+            height: 100px;
+            object-fit: cover;
+        }
+    
+        .deleteBtn {
+            background-color: #7C6347;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: background-color 0.2s;
+    
+            &:hover {
+                background-color: #5e4a34;
+            }
+        }
+    }
+
+    .totalPrice {
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #432c10;
+    }
+
+    .emptyCart {
+        text-align: center;
+        padding: 40px 0;
+        color: #666;
+    }
+}

@@ -1,0 +1,184 @@
+@import '_detail.module.scss';
+
+.title {
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}
+
+.carousel {
+    margin-bottom: 30px;
+
+    img {
+        border-radius: 6px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+}
+
+.description {
+    margin-bottom: 40px;
+
+    h4 {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        color: #5D4632;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px 40px;
+        list-style: none;
+        padding: 15px 0;
+        margin-bottom: 30px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    
+        li {
+            display: flex;
+            flex-direction: column;
+            font-size: 0.95rem;
+    
+            strong {
+                font-weight: 600;
+                color: #333;
+                margin-bottom: 4px;
+                font-size: 0.9rem;
+            }
+    
+            span {
+                color: #666;
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    h6 {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        color: #5D4632;
+    }
+
+    p {
+        word-break: keep-all;
+        padding: 0 10px;
+    }
+
+    .buttonGroup {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 50px 0;
+
+        button {
+            padding: 8px 18px;
+            font-size: 0.9rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+
+    a {
+        padding: 8px 18px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    .btnOutline {
+        background-color: white;
+        color: #432c10;
+        border: 1px solid #432c10;
+
+        &:hover {
+            background-color: #f4f0ea;
+        }
+    }
+    
+    .btnFill {
+        background-color: #7C6347;
+        color: white;
+        border: 1px solid #7C6347;
+
+        &:hover {
+            background-color: #5c4a35;
+        }
+    }
+}
+
+.common {
+    margin-top: 30px;
+
+    h4 {
+        font-size: 1.2rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #7C6347;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    p {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: disc;
+        padding-left: 20px;
+        font-size: 0.95rem;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+}
+
+.amenities {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+
+    .col {
+        flex: 1;
+    }
+    
+    .colWide {
+        flex: 2;
+    }
+
+    strong {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    ul {
+        list-style: circle;
+        padding-left: 20px;
+
+        li {
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+    }
+
+    .bathroomList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 15px; // 줄과 줄, 열 사이 간격
+
+        li {
+            width: calc(50% - 10px); // 2줄로 만들기
+            margin-bottom: 5px;
+        }
+    }
+}

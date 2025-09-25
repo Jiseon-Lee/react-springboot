@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    margin-top: 60px;
+
+    &_top {
+        width: 100%;
+        background-color: #F2ECD8;
+
+        &_jeju {
+            &_logo {
+                width: 230px;
+                height: 100px;
+                overflow: hidden;
+            }
+            img {
+                width: 100%;
+                transform: translateY(-40px);
+            }
+
+            p {
+                font-size: 0.7em;
+                word-break: keep-all;
+            }
+
+            a {
+                color: #9B8D78;
+            }
+        }
+
+        &_brand {
+            &_tit {
+                width: 140px;
+                height: 68px;
+                overflow: hidden;
+        
+                img {
+                    width: 100%;
+                    transform: translateY(0);
+                }
+                &:hover img {
+                    transform: translateY(-68px);
+                }
+            }
+            &_mono {
+                width: 226px;
+                height: 68px;
+                overflow: hidden;
+        
+                img {
+                    width: 100%;
+                    transform: translateY(0);
+                }
+                &:hover img {
+                    transform: translateY(-68px);
+                }
+            }
+            &_stay {
+                width: 150px;
+                height: 68px;
+                overflow: hidden;
+        
+                img {
+                    width: 100%;
+                    transform: translateY(0);
+                }
+                &:hover img {
+                    transform: translateY(-68px);
+                }
+            }
+        }
+
+        &_info {
+            a {
+                color: #9B8D78 !important;
+                text-decoration: none;
+
+                &:hover {
+                    color: #432c10 !important;
+                }
+            }
+        }
+
+        &_qna {
+            a {
+                color: #9B8D78 !important;
+                text-decoration: none;
+                
+                &:hover {
+                    color: #432c10 !important;
+                }
+            }
+        }
+    }
+
+    &_btm {
+        p {
+            font-size: 0.7em;
+            word-break: keep-all;
+        }
+    }
+}
