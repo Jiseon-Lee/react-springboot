@@ -1,3 +1,20 @@
+# 📌 Jeju Shilla Hotel Clone Project  
+
+## 📖 프로젝트 개요
+- 제주 신라호텔 웹사이트를 클론코딩한 프로젝트  
+- **React + Spring Boot + JWT 인증 + Hugging Face** 기반  
+- 객실 담기, 리뷰 분석, 게시판 등 기능 구현  
+
+---
+
+## 🛠 기술 스택
+- **Frontend**: React, Redux, Bootstrap, SCSS  
+- **Backend**: Spring Boot, JPA, MySQL, JWT  
+- **AI**: Hugging Face (Sentiment Analysis), Flask  
+
+---
+## 📑 프로젝트 자료
+
 ![슬라이드1](https://github.com/user-attachments/assets/2f5f43e3-2ad5-415f-b3e5-5a4f66a16787)
 ![슬라이드2](https://github.com/user-attachments/assets/c7df2691-2119-434b-b615-b6bf53ba587a)
 ![슬라이드3](https://github.com/user-attachments/assets/f168ffe4-5bee-4eb7-b6ad-83282cae57ed)
