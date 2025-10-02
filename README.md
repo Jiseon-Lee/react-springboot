@@ -12,5 +12,4 @@
 ![슬라이드12](https://github.com/user-attachments/assets/d294b1fa-9e4e-4de9-b099-76232264d0f0)
 ![슬라이드13](https://github.com/user-attachments/assets/4d0dc571-8fa3-4a2f-af1b-815f813d78d0)
 ![슬라이드14](https://github.com/user-attachments/assets/8ba9c7ea-33c2-49ec-b5bc-638db51cb0f2)
-![슬라이드15](https://github.com/user-attachments/assets/33e4d281-1104-4727-82e1-33110b474b37)
 ![슬라이드16](https://github.com/user-attachments/assets/a8094f71-6317-4554-bd96-23a029afd93c)
